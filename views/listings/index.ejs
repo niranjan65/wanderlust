@@ -37,6 +37,30 @@
             <p>Trending</p>
         </div>
         <div class="filter">
+            <div><i class="fa-solid fa-water-ladder"></i></div>
+            <p>Amazing pools</p>
+        </div>
+        <div class="filter">
+            <div><i class="fa-solid fa-mountain"></i></div>
+            <p>Top of the world</p>
+        </div>
+        <div class="filter">
+            <div><i class="fa-regular fa-chess-rook"></i></div>
+            <p>Castles</p>
+        </div>
+        <div class="filter">
+            <div><i class="fa-solid fa-umbrella-beach"></i></div>
+            <p>Beachfront</p>
+        </div>
+        <div class="filter">
+            <div><i class="fa-solid fa-house-chimney-window"></i></div>
+            <p>Treehouses</p>
+        </div>
+        <div class="filter">
+            <div><i class="fa-solid fa-person-skiing"></i></div>
+            <p>Skiing</p>
+        </div>
+        <div class="filter">
             <div><i class="fa-solid fa-bed"></i></div>
             <p>Rooms</p>
         </div>
@@ -49,7 +73,7 @@
               </div>
         </div>
     </div>
-    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 mt-3">
+    <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 mt-3">
         <% for(let listing of allListings) { %>
             <a href="/listings/<%= listing._id  %>" class="listing-link">
                 <div class="card listing-card" >

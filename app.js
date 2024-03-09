@@ -97,7 +97,7 @@ app.use('/', userRouter)
 // })
 
 app.get("/", (req, res)=>{
-    res.send("Hello! I am root");
+    res.redirect("/listings");
 })
 
 app.all("*", (req, res, next)=>{
